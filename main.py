@@ -7,7 +7,7 @@ Letteringles = list(df['Letter'])
 print(Letteringles)
 with open('mensaje.txt') as archivo:
     mensaje = archivo.read()
-    print(" mensaje cifredo: " + mensaje)
+    print(" mensaje cifrado: " + mensaje)
 
 letras_dic = {}  # Guarda repetición de letras
 
