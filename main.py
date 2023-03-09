@@ -28,6 +28,7 @@ for g in range(22):
     for x in range(len(b)):
         if b[x] == a:
             d = c[x]
+            break
 
     mensaje2 = mensaje2.replace(d, Letteringles[g])
 
